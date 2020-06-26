@@ -10,7 +10,7 @@ h1 {
     /* color: rgba(0, 99, 74, 0.995); */
     color: rgba(7, 157, 119, 0.995);
     font-size: 100px;
-    font-weight: 200;
+    font-weight: 700;
     letter-spacing: -5px;
 }
 
@@ -18,14 +18,14 @@ h2 {
     color: rgb(250, 105, 129);
     font-size: 90px;
     font-weight: 400;
-    letter-spacing: 0px;
+    letter-spacing: -2px;
 }
 
 h3 {
     color: plum;
     font-size: 80px;
     font-weight: 200;
-    letter-spacing: -2px;
+    letter-spacing: 3px;
 }
 
 h4 {
@@ -37,19 +37,37 @@ h4 {
 
 h5 { 
     color: rgb(15, 125, 165);
-    font-size: 60px;
-    font-weight: 500;
-    letter-spacing: 4px;
+    font-size: 100px;
+    font-weight: 600;
+    letter-spacing: -2px;
 }
 
 h6 {
     color: rgba(182, 170, 102, 0.886);
-    font-size: 50px;
+    font-size: 70px;
     font-weight: 800;
-    letter-spacing: -3px;
+    letter-spacing: -2px;
 }
 
 p {
-    color: rgb(213, 122, 122);
+    color: #ff8888;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+strong {
+    color: #ff7979;
+    letter-spacing: 10px;
+}
+
+
+li {
+    color: brown;
+}
+
+a {
+    color: rgb(133, 31, 31);
+    font-size: 30px;
     font-weight: 200;
+    letter-spacing: 4px;
 }
