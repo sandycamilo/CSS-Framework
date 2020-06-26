@@ -24,15 +24,15 @@ h2 {
 h3 {
     color: plum;
     font-size: 80px;
-    font-weight: 200;
+    font-weight: 400;
     letter-spacing: 3px;
 }
 
 h4 {
     color: rgba(158, 55, 55, 0.762);
     font-size: 70px;
-    font-weight: 200;
-    letter-spacing: 10px;
+    font-weight: 800;
+    letter-spacing: 6px;
 }
 
 h5 { 
@@ -70,4 +70,39 @@ a {
     font-size: 30px;
     font-weight: 200;
     letter-spacing: 4px;
+    text-decoration: none;
+}
+
+/* form */
+
+input[type=text], 
+input[type=email], 
+input[type=password], 
+textarea {
+  font-size: 20px;
+  font-weight: 100;
+  color: brown;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 1%;
+  border-color: #652f6585;
+  padding: 7px;
+  margin: 10px;
+  outline: none !important;
+}
+
+input[type=text]:focus, 
+input[type=email]:focus, 
+input[type=password]:focus, 
+textarea:focus {
+    font-size: 25px;
+    font-weight: 400;
+    color: rgba(63, 5, 5, 0.858);
+    border-style: solid;
+    border-width: 9px;
+    border-radius: 1%;
+    border-color: rgb(164, 128, 128);
+    padding: 10px;
+    margin: 10px;
+    outline: none !important;
 }
