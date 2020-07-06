@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Atilde.ss03.ss04.ss05" format="1">
+  <advance width="500"/>
+  <outline>
+    <component base="A.ss03.ss04.ss05"/>
+    <component base="tildecomb.ss04"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019-04-18 21:26:37 +0000</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

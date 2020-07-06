@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gbreve" format="1">
+  <advance width="400"/>
+  <unicode hex="011F"/>
+  <outline>
+    <component base="g"/>
+    <component base="uni0306" yOffset="-100"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019-04-18 21:26:37 +0000</string>
+    </dict>
+  </lib>
+</glyph>

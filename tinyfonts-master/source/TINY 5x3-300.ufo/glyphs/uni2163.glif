@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2163" format="1">
+  <advance width="1000"/>
+  <unicode hex="2163"/>
+  <note>
+    uni2163
+  </note>
+  <outline>
+    <component base="uni2164" xOffset="200"/>
+    <component base="uni2160"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019-04-18 21:26:37 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>H</string>
+    </dict>
+  </lib>
+</glyph>

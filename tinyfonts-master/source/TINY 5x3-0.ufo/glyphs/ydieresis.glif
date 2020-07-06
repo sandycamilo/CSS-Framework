@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ydieresis" format="1">
+  <advance width="400"/>
+  <unicode hex="00FF"/>
+  <outline>
+    <component base="y"/>
+    <component base="uni0308" yOffset="-100"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019-04-18 21:26:37 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>y</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>y</string>
+    </dict>
+  </lib>
+</glyph>
