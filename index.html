@@ -7,23 +7,20 @@
 	
 	<div class="navbar">
 		<ul>
-			<li><h1 class="title">Framework Name</h1></li>
+			<a class="title">COCO.CSS</a>
 			<li><a href="#colors">Colors</a></li>
 			<li><a href="#navbar">Navbar</a></li>
 			<li><a href="#headings">Headings</a></li>
 			<li><a href="#type">Type</a></li>
 			<li><a href="#forms">forms</a>
 			<li><a href="#footer">Footer</a></li>
-		</ul>
-		<ul>
 			<li><a href="link/to/your/framework/repo">GitHub</a></li>
 		</ul>
 	</div>
 
   <div class="container">
-
 		<section id="headings">
-			<h1>Headings</h1>
+			<h1>HEADINGS</h1>
 			<h1>H1 Heading</h1>
 			<h2>H2 Heading</h2>
 			<h3>H3 Heading</h3>
@@ -33,19 +30,19 @@
 
 			<pre>
 				<code>
-&lt;h1&gt;Headings&lt;/h1&gt;
-&lt;h1&gt;H1 Heading&lt;/h1&gt;
-&lt;h2&gt;H2 Heading&lt;/h2&gt;
-&lt;h3&gt;H3 Heading&lt;/h3&gt;
-&lt;h4&gt;H4 Heading&lt;/h4&gt;
-&lt;h5&gt;H5 Heading&lt;/h5&gt;
-&lt;h6&gt;H6 Heading&lt;/h6&gt;
+	&lt;h1&gt;Headings&lt;/h1&gt;
+	&lt;h1&gt;H1 Heading&lt;/h1&gt;
+	&lt;h2&gt;H2 Heading&lt;/h2&gt;
+	&lt;h3&gt;H3 Heading&lt;/h3&gt;
+	&lt;h4&gt;H4 Heading&lt;/h4&gt;
+	&lt;h5&gt;H5 Heading&lt;/h5&gt;
+	&lt;h6&gt;H6 Heading&lt;/h6&gt;
 				</code>
 			</pre>
 		</section>
 		
 		<section id="type">
-			<h1>Paragraph styles</h1>
+			<h1>PARAGRAPH SYTLES</h1>
 			<p>This is the <strong>strong tag</strong> in a paragraph. 
 				This is the <em>em tag in a paragraph</em>, elements such 
 				as &lt;strong&gt; and &lt;em&gt; are inline. Here is an 
@@ -61,7 +58,7 @@
 		</section>
 		
 		<section id="forms">
-			<h2>Buttons</h2>
+			<h2>BUTTONS</h2>
 
 			<p>This is your average button. You might want to click it.</p>
 			
@@ -76,73 +73,82 @@
 			<p>This button has consequences. You might want to think twice before clicking.</p>
 			<p>Custimize buttons by adding CSS variables inline or with a class.</p>
 			<p>
-<button 
-	style="--weight: bold; --background-color: #f85353;"
->Delete</button>
-	<button 
-	style="--background-color: #6bc253;"
->Go!</button>
+<button class="delete">
+	Delete</button>
+	<button class="go">
+	Go!</button>
 			</p>
 
 			<pre>
 				<code>
 &lt;button 
-	style=&quot;--weight: bold; 
-	--background-color: #f85353;&quot;
+	style=&quot;background-color: rgb(100, 100, 46);
+    border-radius: 10px;
+    border-color: rgb(100, 100, 46);
+    width: 200px;
+    height: 70px;
+    font-size: 27px;
+    color: rgb(231, 231, 190);&quot;
 &gt;Delete&lt;/button&gt;
 
 &lt;button 
-	style=&quot;--background-color: #6bc253;&quot;
+	style=&quot; background-color: #062020cb;
+    border-radius: 50px;
+    font-size: 30px;
+    height: 110px;
+    border: none;
+    width: 130px;
+    color: rgb(255, 255, 174);&quot;
 &gt;Go!&lt;/button&gt;
 				</code>
 			</pre>
 		</section>
 		
 		<section>
-			<h2>Links</h2>
+			<h2>LINKS</h2>
 			<p>This <a href="#">paragraph</a> contains a couple <a href="#">links</a> to show off their styles in context.</p>
 		</section>
 
-		<section>
-			<h2>Forms and controls</h2>
-			<form>
-				<label>
-					<span>Text:</span>
-					<input type="text" placeholder="What is your name?">
-				</label>
+	<section>
+		<h2><Fieldset>FORMS AND CONTROLS</Fieldset></h2>
+		<form>
+			<label>
+				<span>Text:</span>
+				<input type="text" placeholder="What is your name?">
+			</label>
 
-				<label>
-					<span>Email:</span>
-					<input type="email" placeholder="What is your name?">
-				</label>
+			<label>
+				<span>Email:</span>
+				<input type="email" placeholder="What is your name?">
+			</label>
 
-				<label>
-					<span>Password:</span>
-					<input type="password" placeholder="What is your name?">
-				</label>
+			<label>
+				<span>Password:</span>
+				<input type="password" placeholder="What is your name?">
+			</label>
 
-				<label>
-					<span>Your comments</span>
-					<textarea placeholder="Your comment"></textarea>
-				</label>
+			<label>
+				<span>Your comments</span>
+				<textarea placeholder="Your comment"></textarea>
+			</label>
 
-				<!-- Switch with Click -->
-				<div>
-					<label id="switch-2" class="switch-2">
-						<input type="checkbox">
-						<div>
-							<div></div>
-						</div>
-					</label>
-					<span>Click Switch no JS</span>
-				</div>
-
-				<label class="control-checkbox">One
-					<input type="checkbox" checked="checked">
-					<span></span>
+			<!-- Switch with Click -->
+			<div>
+				<label id="switch-2" class="switch-2">
+					<input type="checkbox">
+					<div>
+						<div></div>
+					</div>
 				</label>
-			</form>
-		</section>
+				<span>Click Switch no JS</span>
+			</div>
+
+			<label class="control-checkbox">One
+				<input type="checkbox" checked="checked">
+				<span></span>
+			</label>
+		</form>
+	</section>
 
 
 
@@ -363,36 +369,14 @@
 				</code></pre>
 
 				<div>
-					<div style="margin:2em">
-						<frmwrk-slides time="5000">
-							<img src="./images/kitten-0.jpeg" width="259" height="194">
-							<img src="./images/kitten-1.jpeg" width="257" height="196">
-							<img src="./images/kitten-2.jpeg" width="259" height="194">
-							<img src="./images/kitten-3.jpeg" width="275" height="183">
-							<img src="./images/kitten-4.jpeg" width="275" height="183">
-							<img src="./images/kitten-5.jpeg" width="275" height="183">
-						</frmwrk-slides>
-					</div>
-					<div style="margin:2em">
-						<frmwrk-slides-2 time="5000" style="width:257px; height:183;">
-							<img src="./images/kitten-0.jpeg" width="259" height="194">
-							<img src="./images/kitten-1.jpeg" width="257" height="196">
-							<img src="./images/kitten-2.jpeg" width="259" height="194">
-							<img src="./images/kitten-3.jpeg" width="275" height="183">
-							<img src="./images/kitten-4.jpeg" width="275" height="183">
-							<img src="./images/kitten-5.jpeg" width="275" height="183">
-						</frmwrk-slides-2>
-					</div>
-					<div style="margin:2em">
-						<frmwrk-slides-2 time="5000" vertical style="width:257px; height:183;">
-							<img src="./images/kitten-0.jpeg" width="259" height="194">
-							<img src="./images/kitten-1.jpeg" width="257" height="196">
-							<img src="./images/kitten-2.jpeg" width="259" height="194">
-							<img src="./images/kitten-3.jpeg" width="275" height="183">
-							<img src="./images/kitten-4.jpeg" width="275" height="183">
-							<img src="./images/kitten-5.jpeg" width="275" height="183">
-						</frmwrk-slides-2>
-					</div>
+
+					<simple-slides time="2000" transition='300' width="259" height="183">
+						<img src="./images/kitten-0.jpg" width="259" height="183">
+						<img src="./images/kitten-1.jpg" width="259" height="183">
+						<img src="./images/kitten-3.jpg" width="259" height="183">
+						<img src="./images/kitten-4.jpg" width="259" height="183">
+						<img src="./images/kitten-5.jpg" width="259" height="183">
+					</simple-slides>
 				</div>
 		</section>
 
@@ -570,7 +554,7 @@
 	</form>
 
 
-	<script src="./js/frmwrk-slides.js"></script>
+	<script src="./js/slides.js"></script>
 	<script src="./js/frmwrk-slides-2.js"></script>
 </body>
 </html>
